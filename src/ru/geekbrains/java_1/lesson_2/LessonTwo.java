@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class LessonTwo {
 
-    //  Задать целочисленный массив, состоящий из элементов 0 и 1.
+//  Задать целочисленный массив, состоящий из элементов 0 и 1.
 //  Например: [ 1, 1, 0, 0, 1, 0, 1, 1, 0, 0 ]
 //  Написать метод, заменяющий в принятом массиве 0 на 1, 1 на 0;
     private static int[] replacesValueArr(int[] arr) {
@@ -14,7 +14,7 @@ public class LessonTwo {
         return arr;
     }
 
-    //    Задать пустой целочисленный массив размером 8.
+//    Задать пустой целочисленный массив размером 8.
 //    Написать метод, который c помощью цикла заполнит его значениями 1 4 7 10 13 16 19 22;
     private static int[] fillsArray(int[] arr2) {
         for (int i = 0, j = -2;  i < arr2.length; ++i) {
@@ -23,7 +23,7 @@ public class LessonTwo {
         return arr2;
     }
 
-    //    Задать массив [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ],
+ //    Задать массив [ 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 ],
 //    написать метод, принимающий на вход массив  и умножающий числа меньше 6 на 2;
     private static int[] multipliesNum(int[] arr3) {
         for (int i = 0; i < arr3.length; ++i) {
@@ -32,7 +32,7 @@ public class LessonTwo {
         return arr3;
     }
 
-    //    Задать одномерный массив.
+//    Задать одномерный массив.
 //    Написать методы поиска в нём минимального и максимального элемента;
     private static void searchMinMax(int[] arr4) {
         int min = arr4[0]; int max = arr4[0];
